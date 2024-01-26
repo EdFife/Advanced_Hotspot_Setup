@@ -5,12 +5,12 @@ This python script is written 2 make adding additional DMR networks on your Hots
 
 This takes talk group cell padding script and adds the abilty to generate nearly complete talk group rewrite rules for each network.
 
-To use download the script, download talkgroup list from your desired network.
-Execute the script, enter the number you want as your first digit of your talkgroups on the command line then using the file browser select the talkgroup list file you saved earlier.
-The script will create either 2 or 3 files in the same directory you have your original talkgroup list saved in.
- First file is talkgroup list .csv with each talkgroup padded to 7 digits using your entry as the first digit.
- Second file is an error log .csv, only created if your talkgroup list has groups already using 7 digits and those leading digits don't match your desired number.
- Third file is a .txt file with your network settings and rewrite rules using your desired number matching your talkgroups.
+- To use download the script, download talkgroup list from your desired network.
+- Execute the script, enter the number you want as your first digit of your talkgroups on the command line then using the file browser select the talkgroup list file you saved earlier.
+- The script will create either 2 or 3 files in the same directory you have your original talkgroup list saved in.
+  1. First file is talkgroup list .csv with each talkgroup padded to 7 digits using your entry as the first digit.
+  2. Second file is an error log .csv, only created if your talkgroup list has groups already using 7 digits and those leading digits don't match your desired number.
+  3. Third file is a .txt file with your network settings and rewrite rules using your desired number matching your talkgroups.
 
  This should make setting up multiple networks a bit easier and help us all have options instead of just BM.
  You will need to add the following items to the network section:
