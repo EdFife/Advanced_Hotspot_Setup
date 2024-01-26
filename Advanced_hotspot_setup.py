@@ -1,3 +1,12 @@
+# Script written for Windows environment since most DMR radios only have windows apps for codeplug manipulation. 
+# Written by Ed, KE8TES
+# This will work on all talkgroup lists to pad out the Talkgroup number to 7 digits for Custom network configuration. You will be asked to input the number you want as first digit while script is running.
+# When creating this script I realized TGIF has some talkgroups with 7 digits already and some of those did not have 5 as their leading digit.
+# so I pulled out those with 7 which did not start with the desired leading digit; saving them to error file so they did not corrupt your codeplug in case they were overlooked.
+# I did not add header row to the output files as you typically are just pasting the files together anyway.
+# Then I create a .txt file with talkgroup rules for the advanced configuration section of your hotspot.
+# Please use and modify as you see fit.
+
 import csv
 import os
 import tkinter as tk
