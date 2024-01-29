@@ -1,7 +1,7 @@
 # Advanced_Hotspot_Setup
 Ham Radio DMR Hotspot multiple network configuration assistance.
 
-This python script is written 2 make adding additional DMR networks on your Hotspot simpler.
+This python script is written to make adding additional DMR networks on your Hotspot simpler.
 
 This takes talk group cell padding script and adds the abilty to generate nearly complete talk group rewrite rules for each network.
 
